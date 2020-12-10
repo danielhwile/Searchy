@@ -10,6 +10,7 @@ Search also features a clean and simplified design and layout.
 
 ## Front Page
 
+![Screenshot of the Searchy Front Page](https://github.com/danielhwile/Searchy/blob/main/ReadmeImages/FrontPage.png)
 
 ## Usage
 
