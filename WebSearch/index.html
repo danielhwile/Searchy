@@ -1,0 +1,55 @@
+<html lang='en'>
+<head>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="Header">
+        <a href="./index.html" class="button webbutton">Web</a>
+        <a href="https://google.com/images" class="button imagebutton">Images</a>
+        <a href="https://google.com/video" class="button videobutton">Videos</a>
+        <a href="https://google.com/maps" class="button mapsbutton">Maps</a>
+  </div>
+<div>
+<h1>
+  <span style='color: #cf0404'>S</span>
+  <span style='color: blue'>e</span>
+  <span style='color: orange'>a</span>
+  <span style='color: green'>r</span>
+  <span style='color: #cf0404'>c</span>
+  <span style='color: blue'>h</span>
+  <span style='color: orange'>y</span>
+</h1>
+</div>
+<div class="SearchBarBox">
+  <input class="SearchBar" type="text" id="query">
+</div>
+
+<input type="button" onclick="GoogleWebSearch()" value="Google It!" class="GoogleButton">
+<script type="text/javascript">
+ function GoogleWebSearch(){
+    var queryvar=document.getElementById('query').value;
+    var linkintro = "https://www.google.com/search?q=";
+    var querylink = linkintro.concat(queryvar);
+    window.location.href = querylink;
+ }
+</script>
+<input type="button" onclick="DuckWebSearch()" value="Duck It!" class="DuckButton">
+<script type="text/javascript">
+ function DuckWebSearch(){
+    var queryvar=document.getElementById('query').value;
+    var linkintro = "https://duckduckgo.com/?q=";
+    var querylink = linkintro.concat(queryvar);
+    window.location.href = querylink;
+ }
+</script>
+<input type="button" onclick="BingWebSearch()" value="Bing It!" class="BingButton">
+<script type="text/javascript">
+ function BingWebSearch(){
+    var queryvar=document.getElementById('query').value;
+    var linkintro = "https://www.bing.com/search?q=";
+    var querylink = linkintro.concat(queryvar);
+    window.location.href = querylink;
+ }
+</script>
+</body>
+</html>
