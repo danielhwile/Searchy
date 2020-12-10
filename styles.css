@@ -1,0 +1,88 @@
+.header {
+  border: 1px solid #aaa;
+  width: 100%;
+  height: 28px;
+  margin: 0px;
+  background-color: red;
+  background: radial-gradient(farthest-side at bottom right, #666, #333);
+}
+a.button {
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  font-family: sans-serif;
+  height: 28px;
+  margin: 5px 0px;
+  color: #bbb;
+  position: absolute;
+  top: 3px;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 28px;
+}
+a.webbutton {
+  left: 9px;
+  width: 40px;
+}
+
+a.button:hover {
+ color: #fff;
+ border-bottom: 3px solid #bf0000;
+}
+a.imagebutton {
+  left: 51px;
+  width: 60px;
+}
+a.videobutton {
+  left: 113px;
+  width: 60px;
+}
+a.mapsbutton {
+  left: 175px;
+  width: 50px;
+}
+h1 {
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 112px;
+  text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333, 3px 3px #777;
+}
+h3 {
+  font-family: sans-serif;
+  position: absolute;
+  transform: translateX(-50%);
+  text-align: center;
+  left: 50%;
+  top: 26%;
+  text-shadow: 1.5px 1px #ccc;
+
+}
+span {
+ margin: -10px;
+}
+.SearchBarBox {
+  width: 100%;
+}
+.SearchBar {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 30%;
+}
+.Googlebutton {
+  margin-top: 12px;
+  margin-left: 40.5%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 9%
+}
+.Duckbutton {
+  width: 9%;
+  transform: translateX(-50%);
+}
+.Bingbutton {
+  width: 9%;
+  transform: translateX(-50%);
+}
