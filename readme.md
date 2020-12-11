@@ -14,6 +14,8 @@ Search also features a clean and simplified design and layout.
 
 ## Usage
 
-Searchy is not currently hosted at this time.
+Searchy is currently available at https://danielhwile.github.io/Searchy/
+
+Mobile Use is not reccomended at this time.  Better Mobile interface to come at a later date.
 
  
